@@ -1,7 +1,4 @@
-plugins {
-    id 'java'
-    id 'application'
-}
+apply plugin: 'java'
 
 repositories {
     mavenCentral()
@@ -9,8 +6,4 @@ repositories {
 
 dependencies {
     testImplementation 'junit:junit:4.13.2'
-}
-
-application {
-    mainClass = 'com.example.App'
 }
